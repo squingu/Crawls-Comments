@@ -4,3 +4,5 @@ The endgoal for this reddit bot is to save all comments from a predefined submis
 
 #Updates
 ```
+v0.1 - Bot fetches all comments from a submission, including those behind the 200 comment limit and the displayed nested comment limit. For now it only prints the comment tree into the console.
+```
