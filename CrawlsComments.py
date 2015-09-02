@@ -22,7 +22,7 @@ r.login('INSERT USERNAME', 'INSERT PASSWORD', disable_warning=True)
 #Fetch submission 
 #Replace "XXXXXX" in "submission_id=' '" with post ID you want to crawl
 #Submission ID can be found from the submission's URL: 
-#http://www.reddit.com/r/SUBREDDIT/comments/SUBMISSION_ID/SUBMISSION_TITLE
+#https://www.reddit.com/r/SUBREDDIT/comments/SUBMISSION_ID/SUBMISSION_TITLE
 submission = r.get_submission(submission_id='XXXXXX')
 forest_comments = submission.comments
 submission.replace_more_comments(limit=None, threshold=0)
